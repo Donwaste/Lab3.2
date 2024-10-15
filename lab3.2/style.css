@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.text-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.intro-bg,
+.choice1-bg,
+.tests-bg,
+.endfail-bg,
+.normalResult-bg,
+.goodResult-bg,
+.goodFinal-bg,
+.goodFinal2-bg,
+.endFailUnik-bg,
+.endFailUnik2-bg,
+.endFail2-bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.intro-bg {
+    background-image: url('img/intro.jpeg');
+}
+
+.choice1-bg {
+    background-image: url('img/choice1.jpeg');
+}
+
+.tests-bg {
+    background-image: url('img/tests.jpeg');
+}
+
+.endfail-bg {
+    background-image: url('img/endfail.jpeg');
+}
+
+.normalResult-bg {
+    background-image: url('img/normalResult.jpeg');
+}
+
+.goodResult-bg {
+    background-image: url('img/goodResult.jpeg');
+}
+
+.goodFinal-bg {
+    background-image: url('img/goodFinal.jpeg');
+}
+
+.goodFinal2-bg {
+    background-image: url('img/goodFinal2.jpeg');
+}
+
+.endFailUnik-bg {
+    background-image: url('img/endFailUnik.jpeg');
+}
+
+.endFailUnik2-bg {
+    background-image: url('img/endFailUnik2.jpeg');
+}
+
+.endFail2-bg {
+    background-image: url('img/endFail2.jpeg');
+}
